@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+	--color__paleBlue--P: hsl(225, 100%, 94%);
+	--color__brightBlue--P: hsl(245, 75%, 52%);
+	--color__veryPaleBlue--N: hsl(225, 100%, 98%);
+	--color__desaturatedBlue--N: hsl(224, 23%, 55%);
+	--color__darkBlue--N: hsl(223, 47%, 23%);
+	--color__white--N: hsl(0, 0%, 100%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
+
+	background: url('../images/pattern-background-desktop.svg') var(--color__paleBlue--P);
+	background-repeat: no-repeat;
+	background-position: top
+}
+
+.card__container,
+.card__body--plan {
+	border-radius: 20px
+}
+
+.card__container .card__body p,
+.card__body--plan__body span {
+	color: var(--color__desaturatedBlue--N)
+}
+
+.card__body--plan a,
+.payment,
+.cancel {
+	transition: all 0.6s linear
+}

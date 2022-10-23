@@ -1,0 +1,88 @@
+.card__container {
+	width: 350px;
+	overflow: hidden;
+	background: var(--color__white--N);
+	margin: auto;
+}
+
+.card__container .banner {
+	width: 100%
+}
+
+.card__container .card__body {
+	text-align: center;
+	padding: 0 2.5rem
+}
+
+.card__container .card__body h1 {
+	font-size: 1.5rem;
+	margin: 1.2rem 0
+}
+
+.card__container .card__body p {
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.card__body--plan {
+	display: flex;
+	align-items: center;
+
+	margin: 1.5rem 0;
+	padding: 1.5rem 1rem;
+	background: var(--color__veryPaleBlue--N)
+}
+
+.card__body--plan img {
+	width: 17%
+}
+
+.card__body--plan a {
+	font-size: 13px;
+    font-weight: bold;
+    color: var(--color__brightBlue--P)
+}
+
+.card__body--plan a:hover {
+	color: var(--color__darkBlue--N);
+	text-decoration: none
+}
+
+.card__body--plan__body {
+	margin: 0 50px 0 15px;
+	text-align: left
+}
+
+.card__body--plan__body h2,
+.card__body--plan__body span  {
+	font-size: 14px
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	padding: .7rem;
+	font-weight: bold;
+	font-size: 13px;
+	border-radius: 10px
+}
+
+.payment {
+	background: var(--color__brightBlue--P);
+	color: var(--color__white--N);
+	box-shadow: 0px 5px 30px var(--color__brightBlue--P)
+}
+
+.payment:hover {
+	background: var(--color__darkBlue--N);
+	color: var(--color__paleBlue--P)
+}
+
+.cancel {
+	margin: 1rem 0 2rem 0;
+	color: var(--color__desaturatedBlue--N)
+}
+
+.cancel:hover {
+	color: var(--color__darkBlue--N)
+}
